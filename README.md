@@ -1,2 +1,2 @@
-# chapter_1
-This is a collection of assignments for learning back end java chapter 1
+# Challenge Synrgy Backend
+This is a collection of assignments for learning back end java
