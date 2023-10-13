@@ -19,7 +19,6 @@ public class MenuViewTest {
 
     @Test
     public void testRepeatedChar() {
-        // Test the repeatedChar method.
         String repeated = menuView.repeatedChar("=", 5);
         assertEquals("======", repeated);
         System.out.println("Test berhasil!");
@@ -27,7 +26,6 @@ public class MenuViewTest {
 
     @Test
     public void testUserChoice() {
-        // Test userChoice method by providing an input stream.
         String input = "3\n";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         System.setIn(in);
@@ -40,7 +38,6 @@ public class MenuViewTest {
 
     @Test
     public void testUserQty() {
-        // Test userQty method by providing an input stream.
         String input = "2\n";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         System.setIn(in);
