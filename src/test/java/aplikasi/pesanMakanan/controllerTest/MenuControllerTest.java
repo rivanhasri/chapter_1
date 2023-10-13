@@ -22,7 +22,6 @@ public class MenuControllerTest {
 
     @AfterEach
     public void tearDown() {
-        // Perform any necessary cleanup here.
         menuController = null;
     }
 
